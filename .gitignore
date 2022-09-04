@@ -1,0 +1,8 @@
+.*
+__*
+_*
+*.egg-info
+output/*
+
+!.gitignore
+!__*.py

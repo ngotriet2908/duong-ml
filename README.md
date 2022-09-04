@@ -1,9 +1,24 @@
-conda create -n duong-ml python=3.8.13
+## Setup
+```
+make setup
+```
+## Run 
+```
+make run
+```
 
-conda activate duong-ml
+or 
 
-conda install pytorch torchvision cudatoolkit -c pytorch
-
-pip install -e .
-
+```
+(optional) conda activate duong-ml
 python main.py
+```
+## Clean up cache files
+```
+make clean
+```
+## Clean up output files and remove Env
+```
+make remove
+```
+
